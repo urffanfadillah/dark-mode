@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: rgb(36, 35, 35);
+    border: 3px solid rgb(36, 35, 35);
+    border-radius: 5px;
+    width: 80%;
+    padding: 30px 10px;
+    margin: 50px auto;
+}
+
+body.darkMode {
+    color: white;
+    background-color: rgb(36, 35, 35);
+    border: 3px solid white;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .head {
+    display: flex;
+    align-items: center;
+}
+
+.head .button {
+    cursor: pointer;
+    margin-left: 30px;
+    width: 100px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head .button span {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(36, 35, 35);
+}
+
+body.darkMode .head .button {
+    cursor: pointer;
+    margin-left: 30px;
+    width: 100px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body.darkMode .head .button span {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.container h1 {
+    font-size: 44px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.container p {
+    font-size: 24px;
+    padding: 20px 10px;
+}
+
+.container p::first-letter {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
